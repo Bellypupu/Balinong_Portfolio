@@ -78,7 +78,24 @@ body {
 	border-radius: 8px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; /* Adjust this value as needed */
+}
 
+.practicums-files {
+    /* Add your button styling here */
+    background-color: #007bff; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-decoration: none;
+    border-radius: 5px; /* Adjust border radius as needed */
+}
+
+.practicums-files:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
 
 .header {
     text-align: center;  /* Center align the header */
